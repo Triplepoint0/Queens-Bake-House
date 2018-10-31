@@ -573,9 +573,9 @@ input[type="date" i] {
 }
 
 .main_menu > li > a {
-  font-family: Montserrat;
+  font-family: Yellowtail;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   color: white;
   padding: 15px;
@@ -708,6 +708,12 @@ input[type="date" i] {
   .wrap_header {
     height: 100px;
   }
+}
+
+@media (max-width: 576px) {
+.bakehouse_logo {
+    width: 330px;
+}
 }
 
 
@@ -1624,4 +1630,8 @@ body {padding-right: 0px !important;}
   left: 20px;
   border-radius: 10px;
   background-color: #bf8263;
+}
+
+.addybtn {
+  color: white;
 }

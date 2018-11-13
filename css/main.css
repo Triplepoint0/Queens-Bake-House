@@ -585,6 +585,10 @@ input[type="date" i] {
   color: #222222;
 }
 
+.header-fixed .addybtn > li > a {
+  color: #222222;
+}
+
 .main_menu > li:hover > a {
   color: #bf8263;
   text-decoration: none;
